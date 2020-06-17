@@ -1,12 +1,19 @@
 body {
-    display: flex;
     background-color: lightblue;
     font-size: 10rem;
     place-items: center;
     height: 100vh;
+    text-align: center;
+    align-items: center;
   }
 
 #emoji {
-    margin-left: auto;
-    margin-right: auto;
+    margin: 120px auto 60px auto;
+    display: block;
+}
+
+.refresh {
+  font-size: 30px;
+  font-family: sans-serif;
+  color: #282828;
 }
